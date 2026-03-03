@@ -1,0 +1,31 @@
+{
+  "lists": [
+    {
+      "id": "42dc59d8-ba9e-47bf-bb0d-25ba7daf51b2",
+      "title": "Backlog",
+      "cards": []
+    },
+    {
+      "id": "1f637540-abd9-42a9-9255-c3b813875f43",
+      "title": "To Do",
+      "cards": []
+    },
+    {
+      "id": "4aae8bad-50c7-4f8d-acfa-0e1eb690a326",
+      "title": "Doing",
+      "cards": []
+    },
+    {
+      "id": "8431fee9-e824-4f80-9ae6-b183b1f32f9a",
+      "title": "Done",
+      "cards": []
+    }
+  ],
+  "archive": {
+    "lists": [],
+    "cards": []
+  },
+  "settings": {
+    "labels": []
+  }
+}

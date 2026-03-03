@@ -1,0 +1,84 @@
+:root {
+  --ifm-color-primary: #1c1e21; 
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-footer-background-color: #ffffff;
+  --ifm-navbar-background-color: #ffffff;
+}
+
+/*--------------------------'Dark mode'--------------------------*/
+[data-theme='dark'] {
+  /* BASE OBLIGATORIA */
+  --ifm-color-primary: #f5f6f7;
+  --ifm-background-color: #0d1117; /* El fondo que faltaba */
+  --ifm-navbar-background-color: #161b22;
+  --ifm-footer-background-color: #161b22;
+
+  /* 1. Sidebar */
+  --ifm-menu-color: #bdc3c7;
+  --ifm-menu-color-active: #ffffff;
+  --ifm-menu-color-background-active: rgba(255, 255, 255, 0.1);
+
+  /* 2. Navbar forzada */
+  --ifm-navbar-link-color: #ffffff;
+}
+
+/* Ajustes específicos de componentes en Dark Mode */
+[data-theme='dark'] .navbar { background-color: #161b22 !important; }
+[data-theme='dark'] .navbar__title, [data-theme='dark'] .navbar__link { color: #ffffff !important; }
+
+[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link { color: #ffffff !important; opacity: 1; }
+[data-theme='dark'] .breadcrumbs__link { color: #bdc3c7; }
+
+[data-theme='dark'] .pagination-nav__link { border-color: #30363d; background-color: #161b22; }
+[data-theme='dark'] .pagination-nav__sublabel { color: #bdc3c7; }
+[data-theme='dark'] .pagination-nav__label { color: #ffffff; }
+
+/*--------------------------'Fin dark mode'--------------------------*/
+
+/* --- CONTENEDORES PERSONALIZADOS (Rosa y Verde) --- */
+.mi-contenedor-rosa {
+  background-color: #ffe9fe;
+  border: 1px solid #ff85c0;
+  border-left: 8px solid #eb2f96;
+  border-radius: 8px;
+  color: #9e1068;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.mi-contenedor-verde {
+  background-color: #e9ffed;
+  border: 1px solid #85ff8b;
+  border-left: 10px solid #015c0d;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+/* Adaptación de contenedores a Modo Oscuro (para que no brillen demasiado) */
+[data-theme='dark'] .mi-contenedor-rosa {
+  background-color: #2d1b2a; /* Versión oscura del rosa */
+  color: #ffadd2;
+  border-color: #5b1039;
+}
+
+[data-theme='dark'] .mi-contenedor-verde {
+  background-color: #1b2d1e; /* Versión oscura del verde */
+  color: #b7eb8f;
+  border-color: #135200;
+}
+
+/*--------------------------'Estructura'--------------------------*/
+.navbar { border-bottom: 1px solid rgba(0,0,0,0.05); }
+.footer { border-top: 1px solid rgba(0,0,0,0.05); text-align: center; }
+
+/*--------------------------'Imagen'--------------------------*/
+/* Color Amarillo para el Icono en Modo Oscuro */
+[data-theme='dark'] img[src*="external-link"] {
+  /* Este filtro transforma negro (#000) a Amarillo (#ffcf00) */
+  filter: invert(85%) sepia(51%) saturate(2853%) hue-rotate(346deg) brightness(104%) contrast(97%) !important;
+  width: 22px !important;
+  height: 22px !important;
+}

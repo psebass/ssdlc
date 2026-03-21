@@ -1,41 +1,38 @@
-# Website
+# SSDLC Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Documentación del proyecto SSDLC construida con Docusaurus.
 
-## Installation
+## Descripción
 
-```bash
-yarn
-```
+Este repositorio contiene la documentación estructurada del proceso Secure Software Development Life Cycle (SSDLC).
 
-## Local Development
+El sitio está construido utilizando Docusaurus y será publicado públicamente una vez completados los módulos de contenido.
 
-```bash
-yarn start
-```
+## Estructura
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Actualmente incluye:
 
-## Build
+- Estructura base del sitio
+- Módulo 1 completo.
+- Módulo 2 completo.
+- Módulos adicionales en desarrollo
 
-```bash
-yarn build
-```
+## Tecnologías
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- Docusaurus
+- Node.js
+- Markdown
 
-## Deployment
+## Estado del proyecto
 
-Using SSH:
+En desarrollo – camino a la versión **v1.0**
 
-```bash
-USE_SSH=true yarn deploy
-```
+## Publicación
 
-Not using SSH:
+El sitio será publicado mediante **Vercel** cuando se complete la primera versión estable.
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## Autor
+Pablo Sebastián Spitale
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Ubicación
+Buenos Aires - Argentina

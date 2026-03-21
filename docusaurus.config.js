@@ -6,7 +6,7 @@ const darkCodeTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '(SSDLC)Desarrollo Seguro DevSecOps',
-  tagline: 'Desarrollado por Pablo SPITALE',
+  tagline: '2026 Buenos Aires, Argentina',
   url: 'https://tu-dominio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -33,7 +33,7 @@ const config = {
     navbar: {
       title: 'SSDLC devsecops docs',
       items: [
-        {type: 'doc', docId: 'intro', position: 'left', label: 'Docs'},
+        {type: 'doc', docId: 'bienvenida', position: 'left', label: 'Temas'},
       ],
     },
     footer: {

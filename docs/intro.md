@@ -1,15 +1,26 @@
 ---
-sidebar_position: 1
-# slug: /
+title: Intro
+sidebar_label: "Comienzo"
+sidebar_position: 2
 ---
-# Introducción
 
-Bienvenido a **(SSDLC) DevSecOps Docs**.
+# Contenido
+Se presenta el contenido del material de las clases virtuales dictadas.
 
-Este sitio ha sido personalizado automáticamente.
+## Curso
+Este curso de DevSecOps enseña a integrar prácticas de seguridad (Sec) de forma automatizada y continua en todo el ciclo de vida del desarrollo de software y operaciones (DevOps).  
 
----
-### Detalles del Proyecto
-- **Autor:** Pablo SPITALE
-- **Fecha de creación:** 08/02/2026
-- **Estado:** Base lista para contenido. **[WIP]**
+## Tiempo de adquisición
+**Inicio** 30 de enero de 2026  
+**Fin** 03 de marzo de 2026  
+**Horario** 19 a 21 horas (_UTC-03:00_ America/Argentina/Buenos Aires)  
+**Comisión** 83898  
+**Instructor Docente** Diego Marcelo Chavez  
+
+
+
+
+
+
+
+

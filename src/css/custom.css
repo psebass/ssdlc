@@ -5,6 +5,94 @@
   --ifm-navbar-background-color: #ffffff;
 }
 
+/*--------------------------'Headers'--------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500 !important; /* 500 es un grosor medio, 400 es normal */
+  color: var(--ifm-heading-color);
+}
+/*------------------------'Fin Headers'------------------------*/
+
+/*---------------------------'Tablas'--------------------------*/
+table{
+  font-size: 14px;
+  width: auto
+}
+
+thead tr {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+[data-theme='dark'] thead tr {
+  background-color: #161b22;
+}
+/*--------------------------'Fin Tablas'--------------------------*/
+
+/*--------------------------'Divisores'--------------------------*/
+.contenedor-oscuro {
+    background-color: #333333;
+    color: #00eb33;
+    padding: 7px;         
+    border-radius: 5px;
+}
+/*-------------------------'Fin Divisores'-----------------------*/
+
+/*--------------------------'Hero-Title'--------------------------*/
+/* Centrado del contenedor principal */
+/* --- TÍTULO PRINCIPAL MÁS PEQUEÑO --- */
+.hero__title {
+  /* font-family: 'Inter', system-ui, -apple-system, sans-serif !important; */
+  font-size: 1.4 !important;
+  font-weight: 350 !important; /*Grosor de línea*/
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+/* El subtítulo con el nombre */
+.hero__subtitle {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-top: 1rem;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem;
+  text-align: center;
+  min-height: 50vh; /* Para que respire un poco más */
+}
+
+/* Estilo para el botón */
+/* --- BOTÓN MÁS ESTILIZADO Y COMPACTO --- */
+.button--primary {
+  background-color: #382e00 !important; 
+  color: #000 !important;              
+  border: none;
+  
+  /* Ajustes de fuente */
+  font-size: 0.85rem !important;    /* Texto más pequeño */
+  font-weight: 600 !important;      /* Menos grosor (Semi-bold en lugar de Bold) */
+  letter-spacing: 0.05rem;          /* Un poco de aire entre letras para legibilidad */
+
+  /* Ajustes de forma */
+  padding: 0.5rem 1.2rem !important; /* Más bajo y menos ancho */
+  border-radius: 4px !important;    /* Bordes menos redondeados para un look más "tech" */
+  
+  transition: all 0.2s ease-in-out;
+}
+
+.button--primary:hover {
+  background-color: #ffcf00  !important;
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
+/*------------------------'Fin Hero-Title'------------------------*/
+
+
 /*--------------------------'Dark mode'--------------------------*/
 [data-theme='dark'] {
   /* BASE OBLIGATORIA */
@@ -82,3 +170,4 @@
   width: 22px !important;
   height: 22px !important;
 }
+

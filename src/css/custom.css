@@ -69,7 +69,8 @@ thead tr {
 /* Estilo para el botón */
 /* --- BOTÓN MÁS ESTILIZADO Y COMPACTO --- */
 .button--primary {
-  background-color: #382e00 !important; 
+  /* background-color: #382e00 !important;  */
+  background-color: #ccb23d !important; 
   color: #000 !important;              
   border: none;
   

@@ -22,14 +22,12 @@ Aquí encontrarás metodologías, análisis de vulnerabilidades CWE y las mejore
 El SSDLC (Secure Software Development Life Cycle) bajo la filosofía DevSecOps busca guiar al lector a través de metodologías integrales que convergen en un objetivo crítico: desplazar la seguridad hacia la izquierda (Shift Left). 
 Este enfoque propone invertir mayor dedicación en la seguridad desde las etapas tempranas del ciclo de vida de desarrollo, reduciendo riesgos y costos de remediación en producción.   
 
-## Primeros pasos
-* Instructivo de instalación
-* Organización del curso
-* Glosario
 
-
-## Instructivo de instalación
-[Conocer cómo instalar Virtual Box][VBox] ![icono]
+## Instalación del Software
+* [Conocer cómo instalar Virtual Box][VBox] ![icono]  
+* [Máquina virtual Kali Linux][kali] ![icono]  
+* [Aplicación DVWA (Docs+Repo)][DVWA] ![icono]  
+* [Podman][podman] ![icono]  
 
 
 ## Organización del curso
@@ -99,4 +97,7 @@ La arquitectura de este sitio ha sido personalizada de forma automática.
 
 <!-- Referencias -->
 [VBox]: https://www.virtualbox.org/wiki/Downloads
+[kali]: https://drive.google.com/file/d/1QGMiLgHYv8UnPeZxRM1N42IaFx5kwznR/view?usp=sharing
+[DVWA]:https://github.com/digininja/DVWA.git
+[podman]:https://podman.io/
 [icono]:/img/external-link.svg

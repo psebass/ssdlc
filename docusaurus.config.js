@@ -28,7 +28,18 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        language: ["es", "en"],
+        indexDocs: true,
+        indexPages: true,
+        indexBlog: false,
+        // forceIgnoreNoIndex: true,
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: 'SSDLC devsecops docs',
@@ -45,6 +56,8 @@ const config = {
       darkTheme: darkCodeTheme,
     },
   },
+
+  
 };
 
 module.exports = config;

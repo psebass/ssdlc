@@ -163,7 +163,7 @@ thead tr {
 .navbar { border-bottom: 1px solid rgba(0,0,0,0.05); }
 .footer { border-top: 1px solid rgba(0,0,0,0.05); text-align: center; }
 
-/*--------------------------'Imagen'--------------------------*/
+/*----------------------------'Imagen'----------------------------*/
 /* Color Amarillo para el Icono en Modo Oscuro */
 [data-theme='dark'] img[src*="external-link"] {
   /* Este filtro transforma negro (#000) a Amarillo (#ffcf00) */
@@ -172,3 +172,95 @@ thead tr {
   height: 22px !important;
 }
 
+/*-----------------------'cards de OWASP'-----------------------*/
+/* --- CARDS OWASP ELEGANTES --- */
+.card--owasp {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #e0e0e0;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+[data-theme='dark'] .card--owasp {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #2b2b2e;
+}
+
+.card--owasp:hover {
+  transform: translateY(-5px);
+  border-color: #ffcf00; /* Seguridad */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2) !important;
+}
+
+/* El Badge (A01, A02...) */
+.card-badge {
+  background-color: #ffcf00;
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+/* El título de la regla */
+.card-rule-title {
+  margin: 0 !important;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* El año tenue y gris debajo */
+.card-year {
+  display: block;
+  color: #888;
+  font-size: 0.75rem;
+  margin-top: 4px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.card__footer {
+  border-top: 1px solid rgba(0,0,0,0.05);
+  padding: 8px 16px !important;
+  text-align: right;
+  opacity: 0.6;
+}
+
+/*--------------------------'Calendario'--------------------------*/
+.mini-calendar {
+  background: var(--ifm-card-background-color);
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 250px;
+  margin: 10px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.event-day {
+  background-color: #ffcf00;
+  color: black;
+  border-radius: 50%;
+  font-weight: bold;
+}
+/*------------------------'Fin Calendario'------------------------*/
+
+/*--------------------------'Searchbar'--------------------------*/
+/* Color del borde de la barra al estar activa */
+.navbar__search-input:focus {
+  border-color: #ffcf00 !important;
+}
+
+/* Color del resaltado de los resultados dentro de la página */
+mark {
+  background-color: rgba(255, 207, 0, 0.4);
+  color: inherit;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* Ajuste para el desplegable de resultados */
+.search-local-popover {
+  --search-local-hit-active-color: #ffcf00;
+}

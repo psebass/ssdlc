@@ -730,7 +730,5 @@ Ahora puedes continuar al siguiente módulo.
 [ref3]:https://www.docker.com/
 [ref4]:https://podman.io/
 [ref5]:https://www.datacamp.com/blog/docker-vs-podman?utm_cid=21057859163&utm_aid=157296745417&utm_campaign=230119_1-ps-other~dsa-tofu~all_2-b2c_3-latam-en_4-prc_5-na_6-na_7-le_8-pdsh-go_9-nb-e_10-na_11-na&utm_loc=9041026-&utm_mtd=-c&utm_kw=&utm_source=google&utm_medium=paid_search&utm_content=ps-other~latam-en~dsa~tofu~blog~data-engineering&gad_source=1&gad_campaignid=21057859163&gbraid=0AAAAADQ9WsH5Fsh-PKr1GotqUtPZ6Ti4n&gclid=Cj0KCQjw4PPNBhD8ARIsAMo-icyqSlBSTOoH0WXSStdpgSsAj6F0MmJS4TxvWyEEC-OhQrk7cUyH3GgaApVzEALw_wcB
-
-
 [icono]:/img/external-link.svg
 

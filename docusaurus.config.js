@@ -10,9 +10,15 @@ const config = {
   url: 'https://tu-dominio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  // onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'ignore',
+    },
+  },
 
+  
   presets: [
     [
       'classic',
@@ -49,7 +55,7 @@ const config = {
     },
     footer: {
       style: 'light',
-      copyright: `© 08/02/2026 | Pablo SPITALE`,
+      copyright: `© ${new Date().getFullYear()} | Pablo SPITALE`,
     },
     prism: {
       theme: lightCodeTheme,

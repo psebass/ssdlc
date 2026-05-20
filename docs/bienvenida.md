@@ -25,7 +25,7 @@ Este enfoque propone invertir mayor dedicación en la seguridad desde las etapas
 
 ## Instalación del Software
 * [Conocer cómo instalar Virtual Box][VBox] ![icono]  
-* [Máquina virtual Kali Linux][kali] ![icono]  
+* Máquina virtual Kali Linux o de preferencia.
 * [Aplicación DVWA (Docs+Repo)][DVWA] ![icono]  
 * [Podman][podman] ![icono]  
 
@@ -97,7 +97,6 @@ La arquitectura de este sitio ha sido personalizada de forma automática.
 
 <!-- Referencias -->
 [VBox]: https://www.virtualbox.org/wiki/Downloads
-[kali]: https://drive.google.com/file/d/1QGMiLgHYv8UnPeZxRM1N42IaFx5kwznR/view?usp=sharing
 [DVWA]:https://github.com/digininja/DVWA.git
 [podman]:https://podman.io/
 [icono]:/img/external-link.svg

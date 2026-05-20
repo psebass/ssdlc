@@ -247,20 +247,122 @@ thead tr {
 /*------------------------'Fin Calendario'------------------------*/
 
 /*--------------------------'Searchbar'--------------------------*/
-/* Color del borde de la barra al estar activa */
-.navbar__search-input:focus {
-  border-color: #ffcf00 !important;
+/* --- ESTILOS NEUTROS PARA SEARCH LOCAL --- */
+/* 1. Contenedor y borde del Input (Foco) */
+.aa-FormContainer:focus-within {
+  border-color: #888888 !important; /* Gris neutro */
+  box-shadow: 0 0 0 2px rgba(136, 136, 136, 0.2) !important;
 }
 
-/* Color del resaltado de los resultados dentro de la página */
-mark {
-  background-color: rgba(255, 207, 0, 0.4);
-  color: inherit;
-  padding: 0 2px;
-  border-radius: 2px;
+/* 2. Resaltado de texto (el "mark") dentro de los resultados */
+.search-local-popover mark {
+  background-color: rgba(130, 130, 130, 0.2) !important; /* Gris suave */
+  color: inherit !important;
+  font-weight: bold;
 }
 
-/* Ajuste para el desplegable de resultados */
-.search-local-popover {
-  --search-local-hit-active-color: #ffcf00;
+/* 3. Resultado seleccionado en la lista (Hover/Active) */
+.aa-Item[aria-selected='true'] {
+  background-color: #f0f0f0 !important; /* Fondo gris claro */
 }
+
+/* Ajuste para modo oscuro */
+[data-theme='dark'] .aa-Item[aria-selected='true'] {
+  background-color: #2d2d2d !important; /* Gris oscuro para el dark mode */
+}
+
+/* 4. Color del icono de lupa (opcional, para mantener la neutralidad) */
+.aa-SubmitButton svg {
+  color: #666666 !important;
+}
+
+/*--------------------------'Video card'--------------------------*/
+.video-card-custom {
+  background-color: #1e1e20;
+  border-radius: 16px;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  max-width: 700px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 20px 0;
+  color: white;
+  text-decoration: none !important;
+  transition: transform 0.2s ease;
+}
+
+.video-card-custom:hover {
+  transform: scale(1.02);
+  background-color: #252527;
+}
+
+.video-thumbnail-container {
+  position: relative;
+  width: 300px;
+  height: 168px;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.video-thumbnail-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* El botón de Play redondo */
+.play-button-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.play-triangle {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid #000;
+  margin-left: 3px;
+}
+
+/* Info del video */
+.video-info-custom h4 {
+  margin: 0 0 10px 0;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.channel-icon {
+  width: 24px;
+  height: 24px;
+  background: #3498db;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  font-size: 0.7rem;
+}
+/*--------------------------'fin video card'--------------------------*/

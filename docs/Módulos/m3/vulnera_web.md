@@ -1,6 +1,7 @@
 ---
 sidebar_position: 8
 title: Vulnerabilidades web
+slug: /modulo/modulo3/vulnera_web
 description: Identificación y mitigación
 keywords: [vulnerabilidad]
 tags: [Ciberseguridad, Validación de Entradas,Desarrollo Seguro,OWASP Juice Shop
@@ -8,6 +9,8 @@ tags: [Ciberseguridad, Validación de Entradas,Desarrollo Seguro,OWASP Juice Sho
 Listas Blancas,Python / FastAPI]
 ---
 
+
+[Volver](/docs/modulo/modulo3)
 # Vulnerabilidades web: Identificación y mitigación
 
 ## El modelo de amenazas en la web

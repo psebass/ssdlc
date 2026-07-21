@@ -84,7 +84,6 @@ d. Anotar cualquier diferencia que permita distinguir “usuario existe / no exi
 4. Bajo supervisión del docente, simular varios intentos fallidos consecutivos y observar si la aplicación aplica bloqueo, delay o CAPTCHA; registrar peticiones y respuestas con OWASP ZAP (modo observación).  
 a. Capturas de ZAP que muestren el request y las respuestas de varios intentos (mínimo 3–6 manuales, según pauta docente).  
 b. Captura de la página tras los intentos (¿hay bloqueo, mensaje distinto, CAPTCHA o delay?).  
-HACER
 
 
 <!-- Refs -->

@@ -15,7 +15,10 @@ Actualmente incluye:
 - Estructura base del sitio
 - Módulo 1 completo.
 - Módulo 2 completo.
-- Módulos adicionales en desarrollo
+- Módulo 3 completo.
+- Módulo 4 completo.
+- Módulo 5 completo.
+- Módulo 6 en desarrollo
 
 ## Tecnologías
 

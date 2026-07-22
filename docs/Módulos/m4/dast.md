@@ -1,15 +1,13 @@
 ---
 sidebar_position: 9
 title: Pruebas DAST e integración técnica
-slug: /modulo/modulo4/dast
 description: DAST
-keywords: [DAST, blackbox, shiftleft]
-tags: [SAST, IAST, spyder, crawler]
+keywords: [DAST]
+tags: [SAST, IAST, spyder, crawler, ]
 ---
 
 import VideoCard from '@site/src/components/VideoCard';
 
-[Volver](/docs/modulo/modulo4/)
 ## DAST
 
 El análisis dinámico automatizado, conocido como DAST (Dynamic Application Security Testing), es una metodología que consiste en examinar una aplicación mientras se está ejecutando, con el propósito de identificar vulnerabilidades reales desde la perspectiva de un atacante externo.  
@@ -392,6 +390,19 @@ dast_scan:
 ```
 
 Este job generará un reporte de seguridad cada vez que se ejecute el pipeline y detendrá el proceso si detecta vulnerabilidades críticas.  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- Referencias -->

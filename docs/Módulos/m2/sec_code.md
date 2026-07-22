@@ -6,7 +6,6 @@ keywords: [SSDLC, DevSecOps, SAST]
 tags: [sast, dast, pruebas, seguridad, owasp, dependency check]
 ---
 
-[Volver](/docs/modulo/modulo2/)
 # Código Seguro
 
 ## Revisión de código

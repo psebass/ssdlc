@@ -1,7 +1,6 @@
 ---
 sidebar_position: 7
 title: Validación de entradas seguras
-slug: /modulo/modulo3/valid
 description: Control de entradas.
 keywords: [C3]
 tags: [Validación de Entradas, Ciberseguridad, Desarrollo Seguro, OWASP Juice Shop,
@@ -9,8 +8,6 @@ Metodología VAPT,Inyección SQL,XSS (Cross-Site Scripting),Manejo de Excepcione
 Listas Blancas,Python/FastAPI]
 ---
 
-
-[Volver](/docs/modulo/modulo3/)
 # Validación de entradas seguras
 ## C3
 Validar entradas significa verificar que los datos proporcionados por el usuario, una API o cualquier fuente externa cumplan con los requisitos esperados antes de ser procesados.  

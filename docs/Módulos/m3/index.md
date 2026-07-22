@@ -4,9 +4,10 @@ slug: /modulo/modulo3
 ---
 
 
-# Módulo 3
 
-## [Validación de entradas seguras](/docs/modulo/modulo3/valid)
+
+# Modulo 3
+
 1. C3: Validación de entradas y excepciones.
 2. DVWA/VAPT.
 3. OWASP Juice Shop.
@@ -16,10 +17,8 @@ slug: /modulo/modulo3
 7. Inyección de comandos.
 8. Control de datos del usuario en formularios.
 9. Control de datos del usuario en APIs.
-
-## [Vulnerabilidades web: Identificación y mitigación](/docs/modulo/modulo3/vulnera_web)
-1. SQL Injection.
-2. XSS: errores comunes en output encoding.
-3. OS Command Injection/File Upload inseguro.
-4. Deserialización/XXE/LDAP injection.
-5. Manejo seguro de errores y excepciones.
+10. SQL Injection.
+11. XSS: errores comunes en output encoding.
+12. OS Command Injection/File Upload inseguro.
+13. Deserialización/XXE/LDAP injection.
+14. Manejo seguro de errores y excepciones.

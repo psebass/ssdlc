@@ -6,10 +6,9 @@ keywords: [SSDLC, DevSecOps, SAST]
 tags: [sast, dast, pruebas, seguridad, owasp, dependency check]
 ---
 
-
-[Volver](/docs/modulo/modulo2/)
 # SAST
 Análisis Estático de Seguridad (SAST)
+
 
 ## Análisis Estático de Seguridad (SAST)
 
@@ -28,7 +27,7 @@ etapas más avanzadas.
 ● **Mejora** la calidad general del código y refuerza la seguridad del producto final.  
 ● **Permite** aplicar políticas de cumplimiento (por ejemplo, OWASP, ISO 27034 o NIST SP800-53).  
 
-**Ejemplos de vulnerabilidades que SAST puede detectar:**  
+**Ejemplos de vulnerabilidades que SAST puede detectar:**
 ● Inyección SQL o de comandos.  
 ● Cross-Site Scripting (XSS).  
 ● Uso inseguro de funciones criptográficas.  

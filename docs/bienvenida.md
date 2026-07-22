@@ -32,12 +32,12 @@ Este enfoque propone invertir mayor dedicación en la seguridad desde las etapas
 
 ## Organización del curso
 Todo el proyecto está dividido en seis módulos y son:   
-● [Módulo 1: Fundamentos de Desarrollo Seguro](/docs/modulo/modulo1)  
-● [Módulo 2: Análisis Estático de Seguridad (SAST)](/docs/modulo/modulo2)  
-● [Módulo 3: Validación de entradas seguras](/docs/modulo/modulo3)  
-● [Módulo 4: Análisis Dinámico Automatizado (DAST)](/docs/modulo/modulo2)  
-● [Módulo 5: Seguridad: autenticación, sesiones y accesos](/docs/modulo/modulo5)  
-● [Módulo 6: Criptografía, manejo de errores y cierre](/docs/modulo/modulo6)  
+● Módulo 1: Fundamentos de Desarrollo Seguro  
+● Módulo 2: Análisis Estático de Seguridad (SAST)  
+● Módulo 3: Validación de entradas seguras  
+● Módulo 4: Análisis Dinámico Automatizado (DAST)  
+● Módulo 5: Seguridad: autenticación, sesiones y accesos  
+● Módulo 6: Criptografía, manejo de errores y cierre  
 
 
 ## Glosario

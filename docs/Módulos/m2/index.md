@@ -1,9 +1,7 @@
 ---
 title: Módulo 2
 slug: /modulo/modulo2
-description: RDC
 ---
-
 
 ## En este módulo
 

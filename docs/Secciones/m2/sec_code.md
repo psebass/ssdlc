@@ -100,7 +100,7 @@ def login_user(username, password):
 
 Esta entrada devuelve todos los registros del sistema, confirmando la vulnerabilidad.  
 
-### Corección segura
+### Corrección segura
 ```python title="Python" {3,4}
 # Código corregido con parámetros seguros
 def login_user(username, password):

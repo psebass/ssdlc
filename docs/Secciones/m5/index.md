@@ -8,7 +8,7 @@ slug: /modulo/modulo5
 # Módulo 5
 ## [Seguridad, autenticación y control de acceso][ref1]
 
-1. C1: Implementar control de acceso.
+1. C1: Implementar el control de acceso.
 2. C7: Protección de identidades digitales.
 3. Autenticación fuerte y MFA.
 4. ID de sesiones débiles.

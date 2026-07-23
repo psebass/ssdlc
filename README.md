@@ -18,7 +18,7 @@ Actualmente incluye:
 - Módulo 3 completo.
 - Módulo 4 completo.
 - Módulo 5 completo.
-- Módulo 6 en desarrollo
+- Módulo 6 en desarrollo, próximo a terminar.
 
 ## Tecnologías
 
